@@ -1,7 +1,7 @@
-PHP Example
-===========
+PHP Example application for SimpleCalc library
+==============================================
 
-Application using `gajdaw/php-example-calc` library (https://github.com/gajdaw/php-example-calc).
+Application using `tdd-php/lib-simple-calc` library (https://github.com/tdd-php/lib-simple-calc).
 
 Installation
 ------------
