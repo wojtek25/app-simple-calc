@@ -1,0 +1,44 @@
+{
+    "hash": "3618d444c082fc83818748233c4b3252",
+    "packages": [
+        {
+            "name": "gajdaw/php-example-calc",
+            "version": "dev-master",
+            "target-dir": "Gajdaw/PhpExample/Calc",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gajdaw/php-example-calc.git",
+                "reference": "2521ca2d5bee1b8433712d1e42384c179077eda2"
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "1352392119",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Gajdaw\\PhpExample\\Calc": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Włodzimierz Gajda",
+                    "email": "gajdaw@gajdaw.pl"
+                }
+            ],
+            "description": "Example math operations: addition, subtraction, multiplication, division"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "gajdaw/php-example-calc": 20
+    }
+}
