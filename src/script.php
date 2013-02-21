@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Fraction example</title>
+    <title>SimpleCalc example application</title>
     <meta charset="UTF-8" />
     <style>
     body {
         font-family: "Courier New", monospace;
-
     }
     </style>
   </head>
@@ -16,11 +15,11 @@
 
 require_once '../vendor/autoload.php';
 
-use Gajdaw\PhpExample\Calc\Calc;
+use Gajdaw\TddExamples\SimpleCalc\SimpleCalc;
 
-echo Calc::add(1111, 333) . "<br/>\n";
+echo SimpleCalc::add(1111, 333) . "<br/>\n";
 
-echo Calc::zero() . "<br/>\n";
+echo SimpleCalc::zero() . "<br/>\n";
 
 ?>
 
