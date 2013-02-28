@@ -6,11 +6,7 @@ Application using `tdd-php/lib-simple-calc` library (https://github.com/tdd-php/
 Installation
 ------------
 
-Run:
-
     composer install
-
-command.
 
 Updating dependencies
 ---------------------

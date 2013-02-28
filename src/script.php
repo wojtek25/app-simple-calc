@@ -17,17 +17,20 @@ require_once '../vendor/autoload.php';
 
 use Gajdaw\TddExamples\SimpleCalc\SimpleCalc;
 
-echo SimpleCalc::add(1111, 333) . "<br/>\n";
+echo '1+3=' . SimpleCalc::add(1, 3) . "<br/>\n";
 
-echo SimpleCalc::zero() . "<br/>\n";
+echo '5-2=' . SimpleCalc::subtract(5, 2) . "<br/>\n";
 
-echo SimpleCalc::multiply(3, 33) . "<br/>\n";
+echo '3*33=' . SimpleCalc::multiply(3, 33) . "<br/>\n";
 
 try {
+    echo '1/0=';
     echo SimpleCalc::divide(1, 0) . "<br/>\n";
 } catch (\InvalidArgumentException $e) {
     echo $e->getMessage() . "<br/>\n";
 }
+
+echo 'zero()=' . SimpleCalc::zero() . "<br/>\n";
 
 ?>
 
