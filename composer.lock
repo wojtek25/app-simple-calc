@@ -1,5 +1,5 @@
 {
-    "hash": "9b6542607409b927c5e6ab7beffc13de",
+    "hash": "747e4ff18c53345ea64a0874382af4fd",
     "packages": [
         {
             "name": "tdd-php/lib-simple-calc",
@@ -8,12 +8,11 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:tdd-php/lib-simple-calc.git",
-                "reference": "a8b5617c45363db86ab8b985b39c55cdb828ca09"
+                "reference": "6980a290bbdb40e3f59b227a1a1717c51c10696a"
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2013-02-21 12:01:54",
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -29,7 +28,8 @@
                     "email": "gajdaw@gajdaw.pl"
                 }
             ],
-            "description": "Example math operations: addition, subtraction, multiplication, division"
+            "description": "Example math operations: addition, subtraction, multiplication, division",
+            "time": "2013-02-28 07:24:25"
         }
     ],
     "packages-dev": null,

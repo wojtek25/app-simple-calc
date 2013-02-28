@@ -11,3 +11,8 @@ Run:
     composer install
 
 command.
+
+Updating dependencies
+---------------------
+
+    composer update tdd-php/lib-simple-calc

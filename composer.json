@@ -1,6 +1,6 @@
 {
     "require": {
-        "tdd-php/lib-simple-calc": "dev-master"
+        "tdd-php/lib-simple-calc": "@dev"
     },
     "repositories": [
         {
