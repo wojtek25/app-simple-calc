@@ -15,4 +15,5 @@ command.
 Updating dependencies
 ---------------------
 
+    composer update
     composer update tdd-php/lib-simple-calc

@@ -8,7 +8,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:tdd-php/lib-simple-calc.git",
-                "reference": "6980a290bbdb40e3f59b227a1a1717c51c10696a"
+                "reference": "647aabe68b22caab4caddfe7bf522156c8272b20"
             },
             "require": {
                 "php": ">=5.3.3"
@@ -29,7 +29,7 @@
                 }
             ],
             "description": "Example math operations: addition, subtraction, multiplication, division",
-            "time": "2013-02-28 07:24:25"
+            "time": "2013-02-28 08:10:29"
         }
     ],
     "packages-dev": null,
