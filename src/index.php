@@ -13,25 +13,50 @@
 
 <?php
 
-
 require_once '../vendor/autoload.php';
 
 use Gajdaw\TddExamples\SimpleCalc\SimpleCalc;
 
-echo '1+3=' . SimpleCalc::add(1, 3) . "<br/>\n";
+?>
 
-echo '5-2=' . SimpleCalc::subtract(5, 2) . "<br/>\n";
+<hr />
 
-echo '3*33=' . SimpleCalc::multiply(3, 33) . "<br/>\n";
+<?php
 
-try {
-    echo '1/0=';
-    echo SimpleCalc::divide(1, 0) . "<br/>\n";
-} catch (\InvalidArgumentException $e) {
-    echo $e->getMessage() . "<br/>\n";
-}
+echo '1 + 3 = ' . SimpleCalc::add(1, 3);
 
-echo 'zero()=' . SimpleCalc::zero() . "<br/>\n";
+?>
+
+
+<hr />
+
+<?php
+
+echo '5 - 2 = ' . SimpleCalc::subtract(5, 2);
+
+?>
+
+<hr />
+
+<?php
+
+echo '3 * 33 = ' . SimpleCalc::multiply(3, 33);
+
+?>
+
+<hr />
+
+<?php
+
+echo '33 / 11 = ' . SimpleCalc::divide(33, 11);
+
+?>
+
+<hr />
+
+<?php
+
+echo 'zero() = ' . SimpleCalc::zero();
 
 ?>
 
