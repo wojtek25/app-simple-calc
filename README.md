@@ -16,6 +16,8 @@ You cannot issue:
     composer update
     composer update tdd-php/lib-simple-calc
 
+because the above commands will modify `composer.lock`.
+
 Updating dependencies
 ---------------------
 
@@ -30,8 +32,8 @@ After this, admin publishes updated repo:
     git commit -m Updated dependencies
     git push
 
-Deployment
-----------
+Deployment with rsync
+---------------------
 
 [app.mathplate.pl](http://app.mathplate.pl)
 
