@@ -60,5 +60,11 @@ echo 'zero() = ' . SimpleCalc::zero();
 
 ?>
 
+<hr />
+
+<?php
+    echo 'OneDivX(5) = '. SimpleCalc::oneDivX(5);
+?>
+
 </body>
 </html>
