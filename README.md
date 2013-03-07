@@ -8,12 +8,13 @@ Installation
 
 This is the only way to update dependencies by ordinary user:
 
-    composer install
-
-You can also do:
-
     git pull
     composer install
+
+You cannot issue:
+
+    composer update
+    composer update tdd-php/lib-simple-calc
 
 Updating dependencies
 ---------------------
