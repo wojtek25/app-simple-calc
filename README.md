@@ -6,14 +6,28 @@ Application using `tdd-php/lib-simple-calc` library (https://github.com/tdd-php/
 Installation
 ------------
 
+This is the only way to update dependencies by ordinary user:
+
+    composer install
+
+You can also do:
+
+    git pull
     composer install
 
 Updating dependencies
 ---------------------
 
+This is how the repo admin or owner updates dependencies:
+
     composer update
     composer update tdd-php/lib-simple-calc
 
+After this, admin publishes updated repo:
+
+    git add -A
+    git commit -m Updated dependencies
+    git push
 
 Deployment
 ----------
