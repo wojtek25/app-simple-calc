@@ -3,8 +3,8 @@ PHP Example application for SimpleCalc library
 
 Application using `tdd-php/lib-simple-calc` library (https://github.com/tdd-php/lib-simple-calc).
 
-Installation
-------------
+Updating dependencies (ordinary user)
+-------------------------------------
 
 This is the only way to update dependencies by ordinary user:
 
@@ -18,8 +18,8 @@ You cannot issue:
 
 because the above commands will modify `composer.lock`.
 
-Updating dependencies
----------------------
+Updating dependencies (app admin)
+-------------------------------------
 
 This is how the repo admin or owner updates dependencies:
 
