@@ -66,5 +66,11 @@ echo 'zero() = ' . SimpleCalc::zero();
     echo 'OneDivX(5) = '. SimpleCalc::oneDivX(5);
 ?>
 
+<hr />
+
+<?php
+    echo 'Exponentiation(2.5,3) = '. SimpleCalc::exponentiation(2.5,3);
+?>
+
 </body>
 </html>
