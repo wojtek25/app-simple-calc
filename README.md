@@ -18,6 +18,8 @@ Updating dependencies
 Deployment
 ----------
 
+[app.mathplate.pl](http://app.mathplate.pl)
+
     ssh -p1234 joe.doe@example.net
 
     rsync
