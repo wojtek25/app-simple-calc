@@ -72,5 +72,11 @@ echo 'zero() = ' . SimpleCalc::zero();
     echo 'Exponentiation(2.5,3) = '. SimpleCalc::exponentiation(2.5,3);
 ?>
 
+<hr />
+
+<?php
+echo 'fOnePlusXOneMinusX($x) = (1 + x) / (1 - x) = '. SimpleCalc::fOnePlusXOneMinusX(3);
+?>
+
 </body>
 </html>
